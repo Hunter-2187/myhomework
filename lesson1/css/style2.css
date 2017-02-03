@@ -1,0 +1,31 @@
+div {
+	border: 5px solid black;
+}
+.first_block {
+	width: 700px;
+	height: 400px;
+	position: relative;
+	float: left;
+	background-color: green;
+	
+}
+
+.second_block {
+	position:absolute;
+	width: 350px;
+	height: 200px;
+	top: 100px;
+	right: -5px;
+	background-color: blue;
+
+	
+}
+.third_block {
+	position:absolute;
+	top: 45px;
+	left: -5px;
+	width: 170px;
+	height:100px;
+	background-color:red;
+	overflow:auto;
+}

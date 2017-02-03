@@ -1,0 +1,26 @@
+h1,h2 {
+	text-align: center;
+}
+
+hr {
+	border: none;
+	width: 700px;
+	height:3px;
+	background-color: silver;
+	
+}
+.first_block {
+	font-family: Roboto, sans-serif;
+}
+.poem {
+	margin-left: 40px;
+}
+
+.second_block {
+	font-family: Poiret One, cursive;
+}
+
+.f_block {
+	font-family: Exo2, sans-serif;
+}
+	

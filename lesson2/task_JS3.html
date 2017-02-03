@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <script>
+        var a = prompt("Введите значение a","");
+        var sign = prompt("Введите нужный арифметический знак +  - * / % ^","");
+        var b = prompt("Введите значение b","");
+        var c;
+        var a = parseFloat(a);
+        var b = parseFloat(b);
+
+        switch(sign) {
+            case "+":{
+                c = a + b;
+                break;
+            }
+            case "-":{
+                c = a - b;
+                break;
+            } case "*":{
+                c = a * b;
+                break;
+            } case "/":{
+                c = a / b;
+                break;
+            } case "%":{
+                c = a % b;
+                break;
+            }
+            case "^":{
+                c = Math.pow(a,b);
+                break;
+            }
+            default:{
+                document.write("Введен не верный знак");
+            }
+        }
+        if (c || undefined) {
+            document.write("<p>" + a + sign + b + "=" + c);
+        }
+        else {
+            document.write("<br>");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

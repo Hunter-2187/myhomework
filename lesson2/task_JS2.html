@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Анализатор для обработки возраста</title>
+        <script>
+            var age = prompt("Введите свой возраст","");
+            if (age >= 0 && age <= 6) {
+                document.write("Алкоголь категорически нельзя употреблять в таком возрасте");
+            }
+            else if (age > 6 && age <= 12) {
+                document.write("Алкоголь нельзя употреблять в таком возрасте");
+            }
+            else if (age > 12 && age < 18) {
+                document.write("Вам нежелательно употреблять алкоголь");
+            }
+            else {
+                document.write("Вам можно употреблять алкоголь");
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
